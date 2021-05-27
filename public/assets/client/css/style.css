@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+#homeSlider .item img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: cover;
+}
+
+.portion .portionTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portion .portionTitle .seeAllBtn {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #000000 !important;
+    margin-left: 15px;
+}
+
+.productCardItem {
+    border: 0;
+    box-shadow: 0 0 5px 2px #E5E7F2;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.productCardItem .card-img-top {
+    border-radius: 0;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.productCardItem .card-img-top .categoryName {
+    padding: 3px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 13px;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.productCardItem .card-img-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.productCardItem .productCardBody {
+    padding: 10px;
+}
+
+.productCardItem .productCardBody .productName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productCardItem .productCardBody .productPrice {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.productCardItem .productCardBody .btn-view-product {
+    font-size: 13px;
+    background-color: #000000;
+    color: #FFFFFF;
+    /*margin-top: 20px;*/
+    text-transform: uppercase;
+}
+
+
+.adsContainer {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.adsContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.adsContent {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    text-align: center;
+    user-select: none;
+}
+
+.adsContent .offPercentage {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.adsContent .addContentText {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.auth .authTitle {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.auth .authForm label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.auth .authForm .form-control {
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+
+.auth .authForm .avatarBox {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.auth .authForm .avatarBox .avatarBoxText {
+    font-size: 14px;
+}
+
+.auth .authForm .avatarBox .fileInput {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.auth .authForm .btn-submit {
+    font-size: 14px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn-social-login {
+    font-size: 14px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn-social-login:hover {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+}
